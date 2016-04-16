@@ -1,0 +1,13 @@
+QuestionA:
+	What encoded identifiers are used for the functions?
+Ans:
+	Executing the nm command for the Question,we can find the encoded identifiers are _Z7averagePdRd _Z7averageif
+	00000000004004b4 T _Z7averagePdRd
+	00000000004004e2 T _Z7averageif
+QuestionB:
+	What is the output of the following program? Why?
+Ans:
+	The output of program in QuestionB.script
+	The sizeof(a),sizeof(b),sizeof(c) and sizeof(d) are the size of the variable size corresponding the type.
+	So we know that the char use 1 byte,int use 4 bytes,float use 4 bytes and double use 8 bytes.
+	However,the sizeof(*pa) mean the size of a pointer,so we know a pointer to the different types but their size are the same(8 bytes).

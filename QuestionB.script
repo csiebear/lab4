@@ -1,0 +1,26 @@
+Script started on 2016年04月17日 (週日) 07時02分48秒
+]0;F74004101@2016cpp: ~/lab4[01;32mF74004101@2016cpp[00m:[01;34m~/lab4[00m$ cat Questionb.CPP[K[K[K[K[K[Kb[KnB.cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+	char a,*pa;
+	int b,*pb;
+	float c,*pc;
+	double d,*pd;
+
+	cout<<sizeof(a)<<" "<<sizeof(pa)<<endl;
+	cout<<sizeof(b)<<" "<<sizeof(pb)<<endl;
+	cout<<sizeof(c)<<" "<<sizeof(pc)<<endl;
+	cout<<sizeof(d)<<" "<<sizeof(pd)<<endl;
+	return 0;
+}
+]0;F74004101@2016cpp: ~/lab4[01;32mF74004101@2016cpp[00m:[01;34m~/lab4[00m$ gh[K++ -o QuestionB q[KQuestionb.[K[KB.cpp
+]0;F74004101@2016cpp: ~/lab4[01;32mF74004101@2016cpp[00m:[01;34m~/lab4[00m$ ./QuestionB
+1 8
+4 8
+4 8
+8 8
+]0;F74004101@2016cpp: ~/lab4[01;32mF74004101@2016cpp[00m:[01;34m~/lab4[00m$ exit
+
+Script done on 2016年04月17日 (週日) 07時03分21秒
